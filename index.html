@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/apps.js"></script>
+  <script src="js/test.js"></script>
+
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--holds the quiz-->
+  <h1 id="Header">Quiz</h1>
+  <div id="quiz">
+    <ol>
+      <li>
+        <h3>What type of animal is Bambi?</h3>
+        <input type="radio" name="question0" value="a">Fish
+        <input type="radio" name="question0" value="b">Cat
+        <input type="radio" name="question0" value="c">Bird
+        <input type="radio" name="question0" value="d">Deer
+      </li>
+      <li>
+        <h3>Michael Keaton, Val Kilmer, George Clooney and Christian Bale played which superhero?</h3>
+        <input type="radio" name="question1" value="a">Human
+        <input type="radio" name="question1" value="b">Batman
+        <input type="radio" name="question1" value="c">Superman
+        <input type="radio" name="question1" value="d">Spiderman
+      </li>
+      <li>
+        <h3>Which planet did Superman come from?</h3>
+        <input type="radio" name="question2" value="a">Mars
+        <input type="radio" name="question2" value="b">Moon
+        <input type="radio" name="question2" value="c">Krypton
+        <input type="radio" name="question2" value="d">Jupitor
+      </li>
+      <li>
+        <h3>Who invented the Ferrari??</h3>
+        <input type="radio" name="question3" value="a">Enzo Ferrari
+        <input type="radio" name="question3" value="b">Ferruccio Lamborghini
+        <input type="radio" name="question3" value="c">Vincenzo Lancia
+        <input type="radio" name="question3" value="d">Ferrari Enzo
+      </li>
+    </ol>
+  </div>
+
+  <!--button-->
+  <div id="returnScore">
+    <button onclick="getElementById('returnScore').value=problem1(getElementById('returnScore').value)">Score</button>
+  </div>
+</body>
+
+</html>
